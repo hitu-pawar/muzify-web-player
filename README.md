@@ -27,7 +27,7 @@ Computer Engineering Student
 ![Home](screenshots/Screenshot%20(399).png)
 
 ### Playlists
-![Playlists](screenshots/Screenshot%20(408).png)
+![Playlists](screenshots/playlist.WEBP )
 
 ### Music Player
 ![Player](screenshots/Screenshot%20(408).png)
