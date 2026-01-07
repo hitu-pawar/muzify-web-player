@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muzify - Web Player</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utility.css" />
+</head>
+
+<body>
+  <div id="bgBlur"></div>
+
+  <div class="container flex bg-black">
+
+    <!-- ================= LEFT ================= -->
+    <div class="left">
+
+      <div class="home bg-grey rounded m-1 p-1">
+        <div class="logo muzify-logo">
+  <img src="img/Muzify.jpg" alt="Muzify Logo" />
+  <span>Muzify</span>
+</div>
+
+        <ul>
+          <li class="active">
+  <img class="invert" src="img/home.svg" />
+  Home
+</li>
+
+          <li class="active">
+  <img class="invert" src="img/search.svg" />
+  Search
+</li>
+
+        </ul>
+      </div>
+
+      <div class="library bg-grey rounded m-1 p-1">
+
+        <div class="heading">
+          <img class="invert" src="img/playlist.svg" />
+          <h2>Your Library</h2>
+        </div>
+
+        <!-- 🔍 SEARCH BAR -->
+        <input
+          type="text"
+          id="searchSong"
+          placeholder="Search song..."
+          style="width:100%;padding:8px;margin:10px 0;border-radius:5px;border:none;outline:none;"
+        />
+
+        <div class="songList">
+          <ul></ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ================= RIGHT ================= -->
+    <div class="right bg-grey rounded">
+
+      <h1 style="padding:16px">Muzify Playlists</h1>
+
+      <div class="cardContainer">
+
+        <!-- 🎵 JUBIN ALBUM -->
+        <div class="card" data-album="Jubin">
+          <div class="play">
+            <img class="invert" src="img/play.svg" />
+          </div>
+          <img src="songs/Jubin/3984027-jubin-nautiyal-birthday.webp" />
+          <h2>Jubin Hits</h2>
+          <p>Barsaat • Bewafa • Dhadkan</p>
+        </div>
+
+        <!-- 🎵 YOYO ALBUM -->
+        <div class="card" data-album="YoYo">
+          <div class="play">
+            <img class="invert" src="img/play.svg" />
+          </div>
+          <img src="songs/YoYo/51105503.webp" />
+          <h2>YoYo Honey Singh</h2>
+          <p>Blue Eyes • Brown Rang • Desi Kalakaar</p>
+        </div>
+
+        <!-- 🎵 AKHIL ALBUM -->
+        <div class="card" data-album="Akhil">
+          <div class="play">
+            <img class="invert" src="img/play.svg" />
+          </div>
+          <img src="songs/Akhil/wp2579432.webp" />
+          <h2>Akhil Hits</h2>
+          <p>Gani • Khaab • Tainu Milke</p>
+        </div>
+
+
+      </div>
+
+      <!-- ================= PLAYBAR ================= -->
+      <div class="playbar">
+
+        <div class="seekbar">
+          <div class="circle"></div>
+        </div>
+
+        <div class="abovebar">
+
+          <!-- 🎵 SONG INFO + IMAGE -->
+          <div class="songinfo-container">
+            <img id="playbarImage" src="" />
+            <div class="songinfo"></div>
+          </div>
+
+          <!-- ⏮ ▶️ ⏭ -->
+          <div class="songbuttons">
+            <img id="previous" src="img/prevsong.svg" />
+            <img id="play" src="img/play.svg" />
+            <img id="next" src="img/nextsong.svg" />
+          </div>
+
+          <!-- ⏱️ TIME + 🔊 VOLUME -->
+          <div class="timevol">
+            <div class="songtime"></div>
+
+            <div class="volume">
+              <img src="img/volume.svg" />
+              <div class="range">
+                <input type="range" min="0" max="100" value="70" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ✅ ONLY ONE JS FILE -->
+  <script src="script.js"></script>
+</body>
+</html>
