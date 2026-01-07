@@ -20,3 +20,14 @@ Muzify is a Spotify-inspired web music player built using HTML, CSS, and JavaScr
 ## 👤 Author
 Hitesh Pawar  
 Computer Engineering Student
+
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/Screenshot(399).png)
+
+### Playlists
+![Playlists](screenshots/Screenshot(399).png)
+
+### Music Player
+![Player](screenshots/Screenshot(399).png)
