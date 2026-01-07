@@ -24,10 +24,10 @@ Computer Engineering Student
 ## 📸 Screenshots
 
 ### Home Page
-![Home](screenshots/Screenshot(399).png)
+![Home](screenshots/Screenshot%20(399).png)
 
 ### Playlists
-![Playlists](screenshots/Screenshot(399).png)
+![Playlists](screenshots/Screenshot%20(399).png)
 
 ### Music Player
-![Player](screenshots/Screenshot(399).png)
+![Player](screenshots/Screenshot%20(399).png)
