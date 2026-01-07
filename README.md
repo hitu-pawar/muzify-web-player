@@ -30,4 +30,4 @@ Computer Engineering Student
 ![Playlists](screenshots/Screenshot%20(408).png)
 
 ### Music Player
-![Player](screenshots/Screenshot%20(406).png)
+![Player](screenshots/Screenshot%20(408).png)
